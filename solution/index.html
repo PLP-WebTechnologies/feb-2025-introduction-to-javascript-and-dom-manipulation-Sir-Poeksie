@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House of Rotunda - Collection Preview</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>House of Rotunda</h1>
+        <p>Blending high-end streetwear with dark luxury aesthetics.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#gallery">Collection</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#form">Register</a></li>
+        </ul>
+    </nav>
+
+    <section class="gallery-section" id="gallery">
+        <video controls width="100%">
+            <h2>About House of Rotunda</h2>
+            <video controls>
+                <source src="fashion-show.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+        </video>
+        <div class="image-gallery">
+            <div class="image-container">
+                <img src="https://images.pexels.com/photos/6311392/pexels-photo-6311392.jpeg" alt="Collection Item 1">
+                <div class="overlay">Urban Warrior Look</div>
+            </div>
+            <div class="image-container">
+                <img src="https://images.pexels.com/photos/6311394/pexels-photo-6311394.jpeg" alt="Collection Item 2">
+                <div class="overlay">Neo-Goth Essence</div>
+            </div>
+            <div class="image-container">
+                <img src="https://images.pexels.com/photos/6311396/pexels-photo-6311396.jpeg" alt="Collection Item 3">
+                <div class="overlay">Tribal Street Luxe</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <ol class="roman-list">
+            <li>Cutting-Edge Designs</li>
+            <li>Dark Elegance</li>
+            <li>Urban Sophistication</li>
+        </ol>
+    </section>
+
+    <section id="contacts">
+        <table>
+            <thead>
+                <tr><th>Name</th><th>Address</th><th>Mobile</th><th>Email</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Mpumelelo</td><td>Boksburg</td><td>0821234567</td><td>mpume@rotunda.co.za</td></tr>
+                <tr><td>Jennifer</td><td>Germiston</td><td>0832345678</td><td>jen@rotunda.co.za</td></tr>
+                <tr><td>Letshego</td><td>Benoni</td><td>0843456789</td><td>lets@rotunda.co.za</td></tr>
+                <tr><td>Thandazo</td><td>Kempton</td><td>0854567890</td><td>than@rotunda.co.za</td></tr>
+                <tr><td>Nombuso</td><td>Tembisa</td><td>0865678901</td><td>nom@rotunda.co.za</td></tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="form">
+        <form>
+            <label for="name">Name*</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+            <label for="password">Password*</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+            <label for="dob">Date of Birth*</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="style">Style Preference</label>
+            <select id="style" name="style">
+                <option value="neo-goth">Neo-Goth</option>
+                <option value="urban">Urban Warrior</option>
+                <option value="tribal">Tribal Luxe</option>
+            </select>
+
+            <label>Gender</label>
+            <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label>
+
+            <label>
+                <input type="checkbox" name="subscribe" checked>
+                Subscribe to collection alerts
+            </label>
+
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 House of Rotunda. All rights reserved.</p>
+    </footer>
+</body>
+</html>
